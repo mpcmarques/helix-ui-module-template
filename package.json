@@ -1,0 +1,11 @@
+{
+    "shared": [
+        "Shared/*.lua"
+    ],
+    "client": [
+        "Client/ui.lua"
+    ],
+    "server": [
+        "Server/*.lua"
+    ]
+}
