@@ -9,6 +9,8 @@ UI:RegisterEventHandler('Ready', function()
     uiReady = true
     -- Set UI visible as soon as you connect, for development use
     -- ShowUI()
+
+    ShowUI()
 end)
 
 -- Destroy the widget when the package is unloaded to support hot-reloading
@@ -39,5 +41,3 @@ UI:RegisterEventHandler('hideUI', function(data, cb)
     HideUi()
     cb(true)
 end)
-
-ShowUI()
