@@ -8,6 +8,7 @@ A starter template for a Helix module using:
 * React as the components library
 * Tailwindcss as the design library
 * Zustand as the global state manager
+* Framer motion for animations
 
 Also they come with prettier and eslint configured.
 

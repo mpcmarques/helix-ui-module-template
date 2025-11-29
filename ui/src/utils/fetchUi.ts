@@ -20,6 +20,7 @@ export async function fetchUi<T = any>(
 
     return new Promise((resolve) => {
         // HELIX hEvent(eventName, data, callback)
+        console.log("hevent", (window as any).hEvent);
         if ((window as any).hEvent) {
             (window as any).hEvent(eventName, data, (result: T) => {
                 resolve(result);
