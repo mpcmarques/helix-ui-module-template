@@ -8,8 +8,6 @@ UI:RegisterEventHandler('Ready', function()
     print("UI Ready")
     uiReady = true
     -- Set UI visible as soon as you connect, for development use
-    -- ShowUI()
-
     ShowUI()
 end)
 
